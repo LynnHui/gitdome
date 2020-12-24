@@ -1,0 +1,542 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 52;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		75BED1B50EB83486728BD186 /* Pods_FRLawlib.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32CFE521FF73FB00F0A5829C /* Pods_FRLawlib.framework */; };
+		E05ECA7C25416492001C80FF /* FRBaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E05ECA7A25416492001C80FF /* FRBaseViewController.swift */; };
+		E05ECA7D25416492001C80FF /* FRBaseViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = E05ECA7B25416492001C80FF /* FRBaseViews.swift */; };
+		E05ECA8D25417C78001C80FF /* FRBaseCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E05ECA8C25417C78001C80FF /* FRBaseCell.swift */; };
+		E069A404253439AC0097BE9A /* FRLawlib-Prefix.swift in Sources */ = {isa = PBXBuildFile; fileRef = E069A403253439AC0097BE9A /* FRLawlib-Prefix.swift */; };
+		E069A408253470040097BE9A /* UIButton+Plus.swift in Sources */ = {isa = PBXBuildFile; fileRef = E069A407253470040097BE9A /* UIButton+Plus.swift */; };
+		E069A40B253476830097BE9A /* UILabel+Plus.swift in Sources */ = {isa = PBXBuildFile; fileRef = E069A40A253476830097BE9A /* UILabel+Plus.swift */; };
+		E069A40E25354B6D0097BE9A /* UIImage+Plus.swift in Sources */ = {isa = PBXBuildFile; fileRef = E069A40D25354B6D0097BE9A /* UIImage+Plus.swift */; };
+		E0726FDB2563BCC800FA72DF /* FRBaseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0726FDA2563BCC800FA72DF /* FRBaseModel.swift */; };
+		E073F4A62537F9D300DE84FD /* FRUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = E073F4A52537F9D300DE84FD /* FRUtils.swift */; };
+		E07790182567DF8800876004 /* FRBaseCmd.swift in Sources */ = {isa = PBXBuildFile; fileRef = E07790172567DF8800876004 /* FRBaseCmd.swift */; };
+		E0787B20258B34AF00CA09BD /* FRBaseCCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0787B1F258B34AF00CA09BD /* FRBaseCCell.swift */; };
+		E07A6F0C253FD5F700991814 /* NSObject+Plus.swift in Sources */ = {isa = PBXBuildFile; fileRef = E07A6F0B253FD5F700991814 /* NSObject+Plus.swift */; };
+		E081DFB5259432B1007A4495 /* GitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E081DFB4259432B1007A4495 /* GitViewController.swift */; };
+		E081DFB8259433EF007A4495 /* GitCmd.swift in Sources */ = {isa = PBXBuildFile; fileRef = E081DFB7259433EF007A4495 /* GitCmd.swift */; };
+		E081DFD325944360007A4495 /* FRSqlManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E081DFD225944360007A4495 /* FRSqlManager.swift */; };
+		E081DFD725946125007A4495 /* GitRecordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E081DFD625946125007A4495 /* GitRecordViewController.swift */; };
+		E090DA7225232CE400C60503 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E090DA7125232CE400C60503 /* AppDelegate.swift */; };
+		E090DA7925232CE400C60503 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E090DA7725232CE400C60503 /* Main.storyboard */; };
+		E090DA7B25232CE600C60503 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E090DA7A25232CE600C60503 /* Assets.xcassets */; };
+		E090DA7E25232CE600C60503 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E090DA7C25232CE600C60503 /* LaunchScreen.storyboard */; };
+		E0D3837B25308079008CE1AF /* UIView+Plus.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0D3837A25308079008CE1AF /* UIView+Plus.swift */; };
+		E0DC9223255D4E21000E6364 /* FRHttpManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0DC9222255D4E21000E6364 /* FRHttpManager.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		32CFE521FF73FB00F0A5829C /* Pods_FRLawlib.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FRLawlib.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		33D473C03F6978552306B852 /* Pods-FRLawlib.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FRLawlib.debug.xcconfig"; path = "Target Support Files/Pods-FRLawlib/Pods-FRLawlib.debug.xcconfig"; sourceTree = "<group>"; };
+		E05ECA7A25416492001C80FF /* FRBaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FRBaseViewController.swift; sourceTree = "<group>"; };
+		E05ECA7B25416492001C80FF /* FRBaseViews.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FRBaseViews.swift; sourceTree = "<group>"; };
+		E05ECA8C25417C78001C80FF /* FRBaseCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FRBaseCell.swift; sourceTree = "<group>"; };
+		E069A403253439AC0097BE9A /* FRLawlib-Prefix.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "FRLawlib-Prefix.swift"; sourceTree = "<group>"; };
+		E069A407253470040097BE9A /* UIButton+Plus.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIButton+Plus.swift"; sourceTree = "<group>"; };
+		E069A40A253476830097BE9A /* UILabel+Plus.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UILabel+Plus.swift"; sourceTree = "<group>"; };
+		E069A40D25354B6D0097BE9A /* UIImage+Plus.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImage+Plus.swift"; sourceTree = "<group>"; };
+		E0726FDA2563BCC800FA72DF /* FRBaseModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FRBaseModel.swift; sourceTree = "<group>"; };
+		E073F4A52537F9D300DE84FD /* FRUtils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FRUtils.swift; sourceTree = "<group>"; };
+		E07790112567A0FA00876004 /* FRLawlib.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = FRLawlib.entitlements; sourceTree = "<group>"; };
+		E07790172567DF8800876004 /* FRBaseCmd.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FRBaseCmd.swift; sourceTree = "<group>"; };
+		E0787B1F258B34AF00CA09BD /* FRBaseCCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FRBaseCCell.swift; sourceTree = "<group>"; };
+		E07A6F0B253FD5F700991814 /* NSObject+Plus.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NSObject+Plus.swift"; sourceTree = "<group>"; };
+		E081DFB4259432B1007A4495 /* GitViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GitViewController.swift; sourceTree = "<group>"; };
+		E081DFB7259433EF007A4495 /* GitCmd.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GitCmd.swift; sourceTree = "<group>"; };
+		E081DFD225944360007A4495 /* FRSqlManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FRSqlManager.swift; sourceTree = "<group>"; };
+		E081DFD625946125007A4495 /* GitRecordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GitRecordViewController.swift; sourceTree = "<group>"; };
+		E090DA6E25232CE400C60503 /* FRLawlib.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FRLawlib.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E090DA7125232CE400C60503 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E090DA7825232CE400C60503 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E090DA7A25232CE600C60503 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E090DA7D25232CE600C60503 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E090DA7F25232CE600C60503 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E0D3835B2530561D008CE1AF /* FRLawlib-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FRLawlib-Bridging-Header.h"; sourceTree = "<group>"; };
+		E0D3837A25308079008CE1AF /* UIView+Plus.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Plus.swift"; sourceTree = "<group>"; };
+		E0DC9222255D4E21000E6364 /* FRHttpManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FRHttpManager.swift; sourceTree = "<group>"; };
+		FC358E4478CD3E240D668C9D /* Pods-FRLawlib.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FRLawlib.release.xcconfig"; path = "Target Support Files/Pods-FRLawlib/Pods-FRLawlib.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E090DA6B25232CE400C60503 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				75BED1B50EB83486728BD186 /* Pods_FRLawlib.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		89340659D3B957D7531CDAEF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				32CFE521FF73FB00F0A5829C /* Pods_FRLawlib.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8EC91BA1BFFAE7B704C7DB1E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				33D473C03F6978552306B852 /* Pods-FRLawlib.debug.xcconfig */,
+				FC358E4478CD3E240D668C9D /* Pods-FRLawlib.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		E05ECA7925416492001C80FF /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				E05ECA7A25416492001C80FF /* FRBaseViewController.swift */,
+				E05ECA7B25416492001C80FF /* FRBaseViews.swift */,
+				E05ECA8C25417C78001C80FF /* FRBaseCell.swift */,
+				E0787B1F258B34AF00CA09BD /* FRBaseCCell.swift */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		E069A3F825340D320097BE9A /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				E081DFB325943281007A4495 /* GitVC */,
+				E05ECA7925416492001C80FF /* Base */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		E069A41B253718810097BE9A /* Http */ = {
+			isa = PBXGroup;
+			children = (
+				E0DC9222255D4E21000E6364 /* FRHttpManager.swift */,
+				E081DFD225944360007A4495 /* FRSqlManager.swift */,
+				E07790172567DF8800876004 /* FRBaseCmd.swift */,
+				E0726FDA2563BCC800FA72DF /* FRBaseModel.swift */,
+				E081DFB7259433EF007A4495 /* GitCmd.swift */,
+			);
+			path = Http;
+			sourceTree = "<group>";
+		};
+		E081DFB325943281007A4495 /* GitVC */ = {
+			isa = PBXGroup;
+			children = (
+				E081DFB4259432B1007A4495 /* GitViewController.swift */,
+				E081DFD625946125007A4495 /* GitRecordViewController.swift */,
+			);
+			path = GitVC;
+			sourceTree = "<group>";
+		};
+		E090DA6525232CE400C60503 = {
+			isa = PBXGroup;
+			children = (
+				E090DA7025232CE400C60503 /* FRLawlib */,
+				E090DA6F25232CE400C60503 /* Products */,
+				8EC91BA1BFFAE7B704C7DB1E /* Pods */,
+				89340659D3B957D7531CDAEF /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		E090DA6F25232CE400C60503 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E090DA6E25232CE400C60503 /* FRLawlib.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E090DA7025232CE400C60503 /* FRLawlib */ = {
+			isa = PBXGroup;
+			children = (
+				E07790112567A0FA00876004 /* FRLawlib.entitlements */,
+				E069A41B253718810097BE9A /* Http */,
+				E0D3837425307DE9008CE1AF /* Utils */,
+				E069A3F825340D320097BE9A /* ViewController */,
+				E090DA7125232CE400C60503 /* AppDelegate.swift */,
+				E090DA9025232E9E00C60503 /* Supporting Files */,
+				E090DA7A25232CE600C60503 /* Assets.xcassets */,
+				E090DA7F25232CE600C60503 /* Info.plist */,
+				E069A403253439AC0097BE9A /* FRLawlib-Prefix.swift */,
+				E0D3835B2530561D008CE1AF /* FRLawlib-Bridging-Header.h */,
+			);
+			path = FRLawlib;
+			sourceTree = "<group>";
+		};
+		E090DA9025232E9E00C60503 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E090DA7C25232CE600C60503 /* LaunchScreen.storyboard */,
+				E090DA7725232CE400C60503 /* Main.storyboard */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E0D3837425307DE9008CE1AF /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				E0D3837A25308079008CE1AF /* UIView+Plus.swift */,
+				E069A40A253476830097BE9A /* UILabel+Plus.swift */,
+				E069A407253470040097BE9A /* UIButton+Plus.swift */,
+				E069A40D25354B6D0097BE9A /* UIImage+Plus.swift */,
+				E07A6F0B253FD5F700991814 /* NSObject+Plus.swift */,
+				E073F4A52537F9D300DE84FD /* FRUtils.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E090DA6D25232CE400C60503 /* FRLawlib */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E090DA8225232CE600C60503 /* Build configuration list for PBXNativeTarget "FRLawlib" */;
+			buildPhases = (
+				41710A1DB0440F90EB53500F /* [CP] Check Pods Manifest.lock */,
+				E090DA6A25232CE400C60503 /* Sources */,
+				E090DA6B25232CE400C60503 /* Frameworks */,
+				E090DA6C25232CE400C60503 /* Resources */,
+				3EBF16F6CDDF6F9AAB32BB7F /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FRLawlib;
+			productName = FRLawlib;
+			productReference = E090DA6E25232CE400C60503 /* FRLawlib.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E090DA6625232CE400C60503 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1200;
+				LastUpgradeCheck = 1200;
+				TargetAttributes = {
+					E090DA6D25232CE400C60503 = {
+						CreatedOnToolsVersion = 12.0.1;
+					};
+				};
+			};
+			buildConfigurationList = E090DA6925232CE400C60503 /* Build configuration list for PBXProject "FRLawlib" */;
+			compatibilityVersion = "Xcode 11.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E090DA6525232CE400C60503;
+			productRefGroup = E090DA6F25232CE400C60503 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E090DA6D25232CE400C60503 /* FRLawlib */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E090DA6C25232CE400C60503 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E090DA7E25232CE600C60503 /* LaunchScreen.storyboard in Resources */,
+				E090DA7B25232CE600C60503 /* Assets.xcassets in Resources */,
+				E090DA7925232CE400C60503 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3EBF16F6CDDF6F9AAB32BB7F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FRLawlib/Pods-FRLawlib-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FRLawlib/Pods-FRLawlib-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-FRLawlib/Pods-FRLawlib-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		41710A1DB0440F90EB53500F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FRLawlib-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E090DA6A25232CE400C60503 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E073F4A62537F9D300DE84FD /* FRUtils.swift in Sources */,
+				E069A40E25354B6D0097BE9A /* UIImage+Plus.swift in Sources */,
+				E081DFD325944360007A4495 /* FRSqlManager.swift in Sources */,
+				E05ECA8D25417C78001C80FF /* FRBaseCell.swift in Sources */,
+				E05ECA7C25416492001C80FF /* FRBaseViewController.swift in Sources */,
+				E0726FDB2563BCC800FA72DF /* FRBaseModel.swift in Sources */,
+				E081DFD725946125007A4495 /* GitRecordViewController.swift in Sources */,
+				E069A40B253476830097BE9A /* UILabel+Plus.swift in Sources */,
+				E0DC9223255D4E21000E6364 /* FRHttpManager.swift in Sources */,
+				E07A6F0C253FD5F700991814 /* NSObject+Plus.swift in Sources */,
+				E081DFB8259433EF007A4495 /* GitCmd.swift in Sources */,
+				E081DFB5259432B1007A4495 /* GitViewController.swift in Sources */,
+				E0D3837B25308079008CE1AF /* UIView+Plus.swift in Sources */,
+				E069A408253470040097BE9A /* UIButton+Plus.swift in Sources */,
+				E07790182567DF8800876004 /* FRBaseCmd.swift in Sources */,
+				E0787B20258B34AF00CA09BD /* FRBaseCCell.swift in Sources */,
+				E090DA7225232CE400C60503 /* AppDelegate.swift in Sources */,
+				E069A404253439AC0097BE9A /* FRLawlib-Prefix.swift in Sources */,
+				E05ECA7D25416492001C80FF /* FRBaseViews.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		E090DA7725232CE400C60503 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E090DA7825232CE400C60503 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E090DA7C25232CE600C60503 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E090DA7D25232CE600C60503 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E090DA8025232CE600C60503 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E090DA8125232CE600C60503 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E090DA8325232CE600C60503 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 33D473C03F6978552306B852 /* Pods-FRLawlib.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = FRLawlib/FRLawlib.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = "";
+				GCC_PREFIX_HEADER = "";
+				INFOPLIST_FILE = FRLawlib/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.git.dome;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "$(SRCROOT)/FRLawlib/FRLawlib-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		E090DA8425232CE600C60503 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FC358E4478CD3E240D668C9D /* Pods-FRLawlib.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = FRLawlib/FRLawlib.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = "";
+				GCC_PREFIX_HEADER = "";
+				INFOPLIST_FILE = FRLawlib/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.git.dome;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "$(SRCROOT)/FRLawlib/FRLawlib-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E090DA6925232CE400C60503 /* Build configuration list for PBXProject "FRLawlib" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E090DA8025232CE600C60503 /* Debug */,
+				E090DA8125232CE600C60503 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E090DA8225232CE600C60503 /* Build configuration list for PBXNativeTarget "FRLawlib" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E090DA8325232CE600C60503 /* Debug */,
+				E090DA8425232CE600C60503 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E090DA6625232CE400C60503 /* Project object */;
+}
